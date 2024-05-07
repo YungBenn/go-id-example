@@ -11,20 +11,25 @@ import (
 )
 
 func main() {
+	// Nano ID
 	nanoID, err := generateNanoID()
 	if err != nil {
 		panic(err)
 	}
 
+	// CUID
 	cuid, err := generateCUID()
 	if err != nil {
 		panic(err)
 	}
 
+	// ULID
 	ulid := generateULID()
 
+	// UUID v4
 	uuidv4 := generateUUIDv4()
 
+	// UUID v7
 	uuidv7, err := generateUUIDv7()
 	if err != nil {
 		panic(err)
