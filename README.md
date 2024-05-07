@@ -25,5 +25,5 @@ Here are some sample outputs of the ID generator:
 To run the ID generator, use the following command:
 
 ```bash
-node id_generator.js
+go run main.go
 ```
